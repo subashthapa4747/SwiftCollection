@@ -12,7 +12,7 @@ import XCTest
 class SortedArrayTests: XCTestCase {
 
     func testSortedArray() {
-        var sorted = SortedArray(unsorted: [4,2,3,7,1], areInIncreasingOrder: >)
+        _ = SortedArray(unsorted: [4,2,3,7,1], areInIncreasingOrder: >)
     }
 
     
