@@ -20,7 +20,7 @@ struct SortedArray<Element>{
     
     mutating func insert(_ element: Element) {
         sorted.append(element)
-        _ = sorted.sorted(by: areInIncreasingOrder)
+        sorted.sort(by: areInIncreasingOrder)
     }
 }
 

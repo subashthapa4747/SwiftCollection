@@ -8,5 +8,8 @@
 
 import Foundation
 
-print("Hello, World!")
+
+var s = SortedArray(unsorted: [4,2,3,1,5,8], areInIncreasingOrder: <)
+s.insert(3)
+print(s)
 
